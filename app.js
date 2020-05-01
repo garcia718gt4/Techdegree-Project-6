@@ -43,8 +43,7 @@ const addPhraseToDisplay = phrase => {
             li.className = 'letter';
         } else {
             li.className = 'space';
-        }
-        
+        } 
     }
 }
 // call the function 
