@@ -78,11 +78,12 @@ btnReset.addEventListener('click', () => {
 
 // listen for the onscreen keyboard to be clicked
 qwerty.addEventListener('click', e => {
-    let button = e.target; 
+    let button = e.target;
     if (button.tagName === 'BUTTON') {
-        let char = button.textContent; 
+        char = button.textContent; 
         button.className = 'chosen';
         button.setAttribute('disabled', 'true');
+     
     }
     
 }); 
